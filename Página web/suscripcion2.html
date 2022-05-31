@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home made food</title>
+    <link rel="stylesheet" href="estilos2.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header" id="inicio">
+        <img class="comprar" src="img/compra.png" alt="">
+        <nav class="compra-menu">
+            <a href="#">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+            <a href="#">Preguntas frecuentes</a>
+        
+        </nav>
+        <section class="textos-header">
+            <h1>Obten tu suscripcion</h1>
+            <h2>Para una vida mas sana</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Nuestros servicios</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/energia.svg" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span>Semanal</h3>
+                    <p>&#10004; Plan basico </p>
+                    <p>&#10004; Un dia gratis de prueba </p>
+                    <p>&#10004; Acceso a comida limitada</p>
+                    <button>Añadir al carro</button>
+                    <br>
+                    <br>
+                    <h3><span>2</span>Mensual</h3>
+                    <p>&#10004; Plan premiun </p>
+                    <p>&#10004; 1 semana de prueba </p>
+                    <p>&#10004; Acceso a comidas premiun</p>
+                    <button>Añadir al carro</button>
+                    <br>
+                    <br>
+                    <h3><span>2</span>Anual</h3>
+                    <p>&#10004; Plan vip</p>
+                    <p>&#10004; 15 dias de prueba</p>
+                    <p>&#10004; Acceso a todo tipo de comida </p>
+                    <button>Añadir al carro</button>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </section>
+        <section class="clientes contenedor">
+            <h2 class="titulo">Escoge el tipo de tamaño de tu comida</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="img/tamaño1.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Tamaño grande</h4>
+                        <p>Dimensiones del producto: largo x ancho x alto: 25 x 19.5 x 5.5 centímetros</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/tamaño2.jpg" alt="">
+                    <div class="contenido-texto-card">
+                        <h4>Tamaño mediano</h4>
+                        <p>Dimensiones del producto: largo x ancho x alto: 22 x 15 x 5.5 centímetros</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="about-services">
+            <div class="contenedor">
+                <h2 class="titulo">Formulario de envio</h2>
+                <form action="Datos.php" method="get">
+                        <legend><b>Datos de envio</b></legend>
+                        <label for="direccion">Direccion </label>
+                        <input type="text" id="direccion" name="direccion" placeholder="ej: calle de principe, 0" required></p>
+                        <br>
+                        <label for="nombre">Codigo postal </label>
+                        <input type="text" id="postal" name="postal" placeholder="ej: 28000" required></p>
+                        <br>
+                        <label for="apellidos">Informacion adicional </label>
+                        <input type="text" id="Informacion" name="Informacion" placeholder="ej: piso, hab, puerta" required></p>
+                        <br>
+                        <label for="apellidos">Telefono de Contacto </label>
+                        <input type="text" id="Telefono" name="Telefono" placeholder="ej: +34 123456789" required></p>
+
+                        <input type="submit" value="Enviar">
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">Home made food</h2>
+                    <p>Somos expertos en la cocina</p>
+                </div>
+                <div class="social-media">
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-twitter' ></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+</body>
+
+</html>
